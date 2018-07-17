@@ -1,0 +1,210 @@
+#main-menu
+  #hamburger.box-header
+    i.fa.fa-bars(aria-hidden="true")
+    span.box-title Main Menu
+  // - MENU TABS -
+  nav.nav(role="navigation")
+    ul.nav__list
+      // HOME
+      li
+        input#home(type="checkbox" hidden="" onclick="window.location.href = '/';")
+        label(for="home")  Home
+      // WIFI
+      li
+        input#wifi(type="checkbox" hidden="")
+        label(for="wifi")
+          span.fa.fa-angle-right
+          |  Connect to the WiFi
+        ul.group-list
+          li
+            a(href="/wifi/iphone") iPhone / iPad
+          li
+            a(href="/wifi/android") Android
+          li
+            a(href="/wifi/mac") Mac
+          li
+            a(href="/wifi/windows") Windows
+      // BYOD
+      li
+        input#byod-info(type="checkbox" hidden="")
+        label(for="byod-info")
+          span.fa.fa-angle-right
+          |  BYOD Info
+        ul.group-list
+          li
+            a(href="/byod/software") Free Software
+          li
+            a(href="/byod/buy") What to Buy
+          li
+            a(href="/byod/policy") Policy
+      // SUBJECT INFO
+      li
+        input#subject-info(type="checkbox" hidden="")
+        label(for="subject-info")
+          span.fa.fa-angle-right
+          |  Subject Information
+        ul.group-list
+          li
+            input#subject-info-stg4(type="checkbox" hidden="")
+            label(for="subject-info-stg4")
+              span.fa.fa-angle-right
+              |  Stage 4
+            ul.sub-group-list
+              li
+                a(href="/subject/stage4/english") English
+              li
+                a(href="/subject/stage4/mathematics") Mathematics
+              li
+                a(href="/subject/stage4/science") Science
+              li
+                a(href="/subject/stage4/indonesian") HSIE
+              li
+                a(href="/subject/stage4/technology") Technology
+              li
+                a(href="/subject/stage4/capa") CAPA
+              li
+                a(href="/subject/stage4/pdhpe") PDHPE
+              li
+                a(href="/subject/stage4/stem") STEM
+              li
+                a(href="/subject/stage4/stem") Integrated Curriculum
+          // STAGE 5
+          li
+            input#subject-info-stg5(type="checkbox" hidden="")
+            label(for="subject-info-stg5")
+              span.fa.fa-angle-right
+              |  Stage 5
+            ul.sub-group-list
+              li
+                a(href="/subject/stage5/english") English
+              li
+                a(href="/subject/stage5/mathematics") Mathematics
+              li
+                a(href="/subject/stage5/science") Science
+              li
+                a(href="/subject/stage5/hsie") HSIE
+              li
+                a(href="/subject/stage5/pdhpe") PDHPE
+              li
+                input#subject-info-stg5-electives(type="checkbox" hidden="")
+                label(for="subject-info-stg5-electives")
+                  span.fa.fa-angle-right
+                  |  Electives
+                ul.sub-sub-group-list
+                  li
+                    a(href="/subject/stage5/agriculture") Agriculture
+                  li
+                    a(href="/subject/stage5/commerce") Commerce
+                  li
+                    a(href="/subject/stage5/mixed-materials") Mixed Materials
+                  li
+                    a(href="/subject/stage5/drama") Drama
+                  li
+                    a(href="/subject/stage5/engineering") Engineering
+                  li
+                    a(href="/subject/stage5/food") Food Technology
+                  li
+                    a(href="/subject/stage5/fvd") Film and Video
+                  li
+                    a(href="/subject/stage5/ist") Information and Software Technology
+                  li
+                    a(href="/subject/stage5/music") Music
+                  li
+                    a(href="/subject/stage5/pass") PASS
+                  li
+                    a(href="/subject/stage5/photography") Photography and Digital Media
+                  li
+                    a(href="/subject/stage5/textiles") Textiles
+                  li
+                    a(href="/subject/stage5/visual") Visual Arts
+          // STAGE 6
+          li
+            input#subject-info-stg6(type="checkbox" hidden="")
+            label(for="subject-info-stg6")
+              span.fa.fa-angle-right
+              |  Stage 6
+            ul.sub-group-list
+              li
+                a(href="/subject/stage6/aboriginal") Aboriginal Studies
+              li
+                a(href="/subject/stage6/ancient-history") Ancient History
+              li
+                a(href="/subject/stage6/biology") Biology
+              li
+                a(href="/subject/stage6/business-studies") Business Studies
+              li
+                a(href="/subject/stage6/cafs") Community and Family Studies
+              li
+                a(href="/subject/stage6/chemistry") Chemistry
+              li
+                a(href="/subject/stage6/design-tech") Design and Technology                
+              li
+                a(href="/subject/stage6/drama") Drama
+              li
+                a(href="/subject/stage6/english") English
+              li
+                a(href="/subject/stage6/film-vid") Film and Video
+              li
+                a(href="/subject/stage6/hospitality") Hospitality
+              li
+                a(href="/subject/stage6/industrial-technology") Industrial Technology
+              li
+                a(href="/subject/stage6/legal-studies") Legal Studies
+              li
+                a(href="/subject/stage6/marine-studies") Marine Studies
+              li
+                a(href="/subject/stage6/mathematics") Mathematics
+              li
+                a(href="/subject/stage6/modern-history") Modern History
+              li
+                a(href="/subject/stage6/music") Music
+              li
+                a(href="/subject/stage6/pdhpe") PDHPE
+              li
+                a(href="/subject/stage6/physics") Physics
+              li
+                a(href="/subject/stage6/sdd") Software Design and Development
+              li
+                a(href="/subject/stage6/slr") Sport, Lifestyle and Recreation
+              li
+                a(href="/subject/stage6/society-culture") Society and Culture
+              li
+                a(href="/subject/stage6/visual-arts") Visual Arts
+      // Assessment
+      li
+        input#assessment-schedules(type="checkbox" hidden="")
+        label(for="assessment-schedules")
+          span.fa.fa-angle-right
+          |  Assessment Schedules
+        ul.group-list
+          li
+          li
+            a(href="/assessment/year7") Year 7
+          li
+            a(href="/assessment/year8") Year 8
+          li
+            a(href="/assessment/year9") Year 9
+          li
+            a(href="/assessment/year10") Year 10
+          li
+            a(href="/assessment/year11") Year 11
+          li
+            a(href="/assessment/year12") Year 12
+      // PBL
+      li
+        input#rewards-system(type="checkbox" hidden="")
+        label(for="rewards-system")
+          span.fa.fa-angle-right
+          |  PBL
+        ul.group-list
+          li
+          li
+            a(href="/pbl/thumbs") Thumbs Up
+          li
+            a(href="/pbl/merit") Merit Awards
+          li
+            a(href="/pbl/rap") RAP
+          li
+            a(href="/pbl/excursions") Excursions
+          li
+            a(href="/pbl/special") Special Awards

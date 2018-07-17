@@ -1,0 +1,11 @@
+#search
+  .box-header
+    i.fa.fa-search(aria-hidden="true")
+    span.box-title Search
+  .extra-padding
+    img.img-responsive(src="/img/google.png")
+    form#google-form(method="get" action="https://www.google.com/search")
+      .input-group
+        input.form-control(type="text" name="q" value="")
+        span.input-group-btn
+          button.btn.btn-secondary(type="submit") Go!

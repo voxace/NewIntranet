@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title MHS Student Intranet
+    link(href="/css/bootstrap.css" rel="stylesheet")
+    link(href="/css/font-awesome.min.css" rel="stylesheet")
+    link(href="/css/custom.css" rel="stylesheet ")
+    link(href="/css/menu.css " rel="stylesheet ")
+  body
+    #wrapper.wrapper
+      // - HEADER -
+      #header
+        a(href="index.php")
+          img.img-responsive(src="/img/logo.png")
+      // - TOOLBAR -
+      include toolbar.pug
+      // - LEFT COLUMN -
+      aside.sidebar
+        include menu.pug
+        include searchbox.pug
+        include datebox.pug
+      // - CONTENT - 
+      article#content
+        block content
+    script(src="/js/jquery.min.js")
+    script(src="/js/bootstrap.min.js")
+    script(src="/js/custom.js")
+    script(src="/js/clock.js")
+    script(src="/js/menu.js")
