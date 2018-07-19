@@ -1,5 +1,4 @@
 const express = require('express')
-const {google} = require('googleapis')
 const wifiRoutes = require('./routes/wifiRoutes')
 const byodRoutes = require('./routes/byodRoutes')
 const subjectRoutes = require('./routes/subjectRoutes')
