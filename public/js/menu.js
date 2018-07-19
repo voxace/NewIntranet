@@ -32,4 +32,6 @@ switch(pathArray[1]) {
 }
 
 var page = window.location.pathname;
-$('a[href*="' + page + '"]').parent().css("background", "rgba(0,0,0,0.1)" );
+if(page != "/") {
+  $('a[href*="' + page + '"]').parent().css("background", "rgba(0,0,0,0.1)" );
+}

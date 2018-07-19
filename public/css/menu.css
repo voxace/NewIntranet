@@ -11,9 +11,11 @@
   font-size: 1.2rem;
 }
 
-menu, nav { display: block }
+menu, nav { display: block; }
+
+.nav { display: block; }
 
-.nav ol, .nav ul { list-style: none }
+.nav ol, .nav ul { list-style: none; }
 
 .nav a, .nav label {
   display: block;
@@ -80,8 +82,8 @@ menu, nav { display: block }
   height: 100%;
   max-height: 0;
   overflow: hidden;
-  -webkit-transition: max-height .45s ease-in-out;
-  transition: max-height .45s ease-in-out;
+  -webkit-transition: max-height .25s ease-in-out;
+  transition: max-height .25s ease-in-out;
 }
 
 .nav__list input[type=checkbox]:checked + label + ul {
@@ -96,8 +98,8 @@ max-height: 1000px;
 label > span {
   float: right;
   margin-top: 4px;
-  -webkit-transition: -webkit-transform .45s ease;
-  transition: transform .45s ease;
+  -webkit-transition: -webkit-transform .15s ease;
+  transition: transform .15s ease;
 }
 
 .nav__list input[type=checkbox]:checked + label > span {
