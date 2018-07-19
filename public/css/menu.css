@@ -8,7 +8,7 @@
   border: 0;
   vertical-align: baseline;
   font-weight: normal;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 menu, nav { display: block }
@@ -35,9 +35,9 @@ menu, nav { display: block }
  */
 
 .group-list a, .group-list label {
-  padding-left: 2rem;
+  padding-left: 1.8rem;
   background-color: rgba(0,0,0,0.0);
-  font-size: 1.15rem;
+  font-size: 1.05rem;
 }
 
 .group-list a:focus, .group-list a:hover, .group-list label:focus, .group-list label:hover {
@@ -49,9 +49,9 @@ menu, nav { display: block }
  */
 
 .sub-group-list a, .sub-group-list label {
-  padding-left: 3.8rem;
+  padding-left: 2.8rem;
   background-color: rgba(0,0,0,0.0);
-  font-size: 1rem;
+  font-size: 0.9rem;
 
 }
 
