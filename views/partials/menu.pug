@@ -5,11 +5,9 @@
   // - MENU TABS -
   nav.nav(role="navigation")
     ul.nav__list
-      // HOME
       li
         input#home(type="checkbox" hidden="" onclick="window.location.href = '/';")
         label(for="home")  Home
-      // WIFI
       li
         input#wifi(type="checkbox" hidden="")
         label(for="wifi")
@@ -24,7 +22,6 @@
             a(href="/wifi/mac") Mac
           li
             a(href="/wifi/windows") Windows
-      // BYOD
       li
         input#byod-info(type="checkbox" hidden="")
         label(for="byod-info")
@@ -37,7 +34,6 @@
             a(href="/byod/buy") What to Buy
           li
             a(href="/byod/policy") Policy
-      // SUBJECT INFO
       li
         input#subject-info(type="checkbox" hidden="")
         label(for="subject-info")
@@ -68,7 +64,6 @@
                 a(href="/subject/stage4/stem") STEM
               li
                 a(href="/subject/stage4/stem") Integrated Curriculum
-          // STAGE 5
           li
             input#subject-info-stg5(type="checkbox" hidden="")
             label(for="subject-info-stg5")
@@ -117,7 +112,6 @@
                     a(href="/subject/stage5/textiles") Textiles
                   li
                     a(href="/subject/stage5/visual-arts") Visual Arts
-          // STAGE 6
           li
             input#subject-info-stg6(type="checkbox" hidden="")
             label(for="subject-info-stg6")
@@ -170,7 +164,6 @@
                 a(href="/subject/stage6/society-culture") Society and Culture
               li
                 a(href="/subject/stage6/visual-arts") Visual Arts
-      // Assessment
       li
         input#assessment-schedules(type="checkbox" hidden="")
         label(for="assessment-schedules")
@@ -190,7 +183,6 @@
             a(href="/assessment/year11") Year 11
           li
             a(href="/assessment/year12") Year 12
-      // PBL
       li
         input#rewards-system(type="checkbox" hidden="")
         label(for="rewards-system")
@@ -199,12 +191,12 @@
         ul.group-list
           li
           li
-            a(href="/pbl/thumbs") Thumbs Up
+            a(href="/pbl/thumbs-up") Thumbs Up
           li
-            a(href="/pbl/merit") Merit Awards
+            a(href="/pbl/merit-awards") Merit Awards
           li
-            a(href="/pbl/rap") RAP
+            a(href="/pbl/rap-scores") RAP
           li
             a(href="/pbl/excursions") Excursions
           li
-            a(href="/pbl/special") Special Awards
+            a(href="/pbl/special-awards") Special Awards
